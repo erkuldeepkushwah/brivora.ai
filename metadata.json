@@ -1,0 +1,6 @@
+{
+  "name": "Brivora AI & IT Solutions",
+  "description": "Enterprise AI transformation, scalable cloud systems, and managed IT services.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
