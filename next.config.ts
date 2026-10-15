@@ -1,5 +1,11 @@
 import type {NextConfig} from 'next';
 
+// GitHub Pages serves this repo as a project site:
+//   https://erkuldeepkushwah.github.io/brivora.ai/
+// The base path is injected by the deploy workflow via BASE_PATH so that other
+// targets (local dev, Vercel, etc.) keep serving from the root.
+const basePath = process.env.BASE_PATH || '';
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   eslint: {
@@ -8,8 +14,12 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: false,
   },
-  // Allow access to remote image placeholder.
+  // Static HTML export — GitHub Pages has no Node runtime to run `next start`.
+  output: 'export',
+  basePath,
+  // Required with `output: 'export'` (the default image optimizer needs a server).
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
@@ -25,7 +35,6 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  output: 'standalone',
   transpilePackages: ['motion'],
   webpack: (config, {dev}) => {
     // HMR is disabled in AI Studio via DISABLE_HMR env var.
