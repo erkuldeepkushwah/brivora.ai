@@ -33,37 +33,37 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     name: 'Jonathan Brown',
     role: 'Chief AI Architect',
-    image: 'https://brivora.pages.dev/team-1.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAwr1VcwGC70zEO3aNC5NrE2O7cZFvgSKv4YzSGS7w0fjOsnugwIa3_JfuyQkzjo-x3Su3HTVaT8nqqwXCv0T0beYu8ejeKyZGMcq90WAWEJg7WtUDRVtAdKK5Q4gcjHFDlYIBjpiRxDcm4InHprouO77d7JOFgYfGdWZf9XuU93Pn6oqzH3_jKycUe7LxqCnKt7zEI5AiZ2SZZqBkmBr6Ei0fJRX9Ji53mAf--Sp6O',
     bio: 'Former DeepMind staff researcher specializing in multi-agent orchestration and private enterprise LLM alignment.'
   },
   {
     name: 'Jeremy Jefferson',
     role: 'Head of IT Infrastructure & Cloud',
-    image: 'https://brivora.pages.dev/team-2.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuC-Bubmbt6njDXxzGzwHnhtWDHAJGlHoeBLMK3d219ZsW4Qg7Zx3MoOpBeXEN74Brz7xDudzF_AVRhaAaLPIi9OQtkD1IHX4xU1mHaLNbcV44O6uKXXFTH7EIkSatMMgXSPOxaV2tM_vrNGVLj8SHuGz23rxD0kxv6YkRsH-eiGsH-OEt9STBjbELno6rZc8kjZqfrT0HpES1vHMucp9t38WRSTUEZHmlsT1nvRvjff',
     bio: '15+ years architecting hyperscale Kubernetes clusters and zero-downtime multi-cloud transitions.'
   },
   {
     name: 'Gregory Brown',
     role: 'VP of Cybersecurity & Operations',
-    image: 'https://brivora.pages.dev/team-3.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBpNX5ZMRbIEOjelzLH-n0_DAHQrN2Epy3qFYRDnuGOwhCObKho49n9euK3arNRfP9aVgZ-lfZ-4SA7z4le__tiqFUmer5SYm4d6q52uihBsZLxOvOX0lgzVjc0Evimz8PdQ7axpkjcFMjGq4EM-N0OYk0XWzD-hQzyIG63nnxw7Fu_xzExEP7awj7RxLFJ1GHlo68F8jeTLUunY89QrYGDOnKKMHu5M3XwvKqj5Taz',
     bio: 'Certified CISSP and zero-trust perimeter specialist leading enterprise threat intelligence and SOC-2 audits.'
   },
   {
     name: 'Jessica Sandstone',
     role: 'AI Product Delivery Lead',
-    image: 'https://brivora.pages.dev/team-4.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCfC1HbdjiQnUXBEe4AFE1leQJjS6HfwlY14oOFMrm2ivM9KzLpXLLXnUp25Hosul3FeHHFA4M8PPggieT8S87D7h7u-qgyDWIg2vurpNiaQ0Gt1XkeMROJTf33fVjTlc3GPfIcCewMfxfUVn3hEb1uoDxZXu5xHvBM2iH-QKFJQDmdemXxUb4qsNrSLDSIDdix-JCoEREFLM4W7MZCeSveDTCBztic1Jla4NWAGo00',
     bio: 'Oversees agile AI solution lifecycles, ensuring seamless integration between R&D models and business operations.'
   },
   {
     name: 'Dr. Elena Rostova',
     role: 'Principal ML Research Scientist',
-    image: 'https://brivora.pages.dev/team-5.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCAXmbDx0YtbmH2facc60A9zjBrdChhXejgvelO7EElofBTzndk89gWZaQwRiLmkfISFYFAsLxbY-YpwQ1vszu6aOekxbqYdtCbDIenxnNudR1oXRaUa5tOY2qiY-OU7MyHUEAWDp2p7FIh6j-paVLNxnPGLMPes1QCpmsKxCo8KSB-A9s-StFNW1dDx1ph2ldIWlU8PI8pxMaf49TYpe-8qMR8XcuT0MiNYC1SRbbOIFu1rDCa-N9e1A',
     bio: 'Specialist in low-latency RAG architectures and distributed inference optimizations.'
   },
   {
     name: 'Marcus Vance',
     role: 'Director of DevOps & SRE',
-    image: 'https://brivora.pages.dev/team-6.jpg',
+    image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCXTXlWIHThmv_RyOeQ6GIz1QDUK3oAaKL4LGsNrjXHyogoMNBWtNnYGejzXh1jQnGZenfQclmgFksZBNVWjH8TIZvd6euXhdm6SGm433SzIrwkl2TD3yUw9uvvWnnu8lkCx0tEGFaX-j6c1YBtWlF0ML2eOKvCD2Df2zqq2XYo_QT1kB1T2C21muXgu3Rx3BoWdn1fOqG3kwgOcOPrgfMpz7gBe6VRoxQNLaV5E5ANEXxJOQeuHJNsdQ',
     bio: 'Expert in multi-region failover, Terraform infrastructure-as-code, and 99.999% SLA deployments.'
   }
 ];
