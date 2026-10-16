@@ -59,7 +59,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   <img
                     alt="AI Engineering Team"
                     className="w-full h-56 object-cover transform group-hover:scale-105 transition duration-500"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWS0dR1w8fuywJ1zxlyPqHpzZN4W_0fvaWKpRPjvUlT7PsH7kuiC3tT0rduTVuj0B_sNSKvD-Ofzv-CGP_1JW8IBDGrnqW-jCd2j-Y35qzsuFd_yk0AQQRt-zF7JtqouU23f9XYNd9SghnsxQ7e0GXvONPFlbJ93MrBuV30MFoBXDxWAU4v0O_Gmsq0m8hff98Nz1I-9nkcbrCmUyAHedhh5c7nICLI1EHMrV-I5pB6LaW5KcPvOUpKg"
+                    src="https://brivora.pages.dev/team-1.jpg"
                   />
                 </div>
                 {/* Card 2: Modern Hardware & Infrastructure */}
@@ -67,7 +67,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   <img
                     alt="Cloud Architect"
                     className="w-full h-44 object-cover transform group-hover:scale-105 transition duration-500"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTBgFLMPCnPXdg-N7QOyevzzNxhtebPhtR_vJ_SIH34_F2-PvOqk9K5SxBeWQ-TZmdBMpN_H9nQ7BdZjczmSdSpnzqpM0ZBek80ftgrCJRVYNgsS1QTokqnAW2P5Dslurf3Nhd7P2lcTnTyA_vXTBaxeG8lu8gZ3guikndX80bVWd4CBVsrxEjBVhBQxtIpsgEiIaZZppTqMP9Mc6_Ohegj1iBxSQjF_PF14Po_TFbR4yFqFs8r8LEEA"
+                    src="https://brivora.pages.dev/team-2.jpg"
                   />
                 </div>
               </div>
@@ -78,14 +78,14 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   <img
                     alt="DevOps Operations Screen"
                     className="w-full h-40 object-cover transform group-hover:scale-105 transition duration-500"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2ZEj86kGNZGzLnDXTyvCd6RB9RoOrihl-mis04PW_nH3ECLDk3GJCgKhZcojyXhpScpcOmq8UK13RPO8Wp5CGhtCKyLORjXXIpPZTNRIOowMrGgWjRO-XvGHglnHOHzICCTGXiz7QqK9_HyqeTWYXkNzi6RDxUJgrdXtVwGbIMcwiy92DpiGJk8-pV2f_lYMZ0y_4YWEdu-z0eGc96VQmrbc1IzFClaUwvIkowykSII7k3SLiYsQc1Q"
+                    src="https://brivora.pages.dev/team-3.jpg"
                   />
                 </div>
                 <div className="overflow-hidden rounded-2xl shadow-2xl border border-white/10 bg-slate-900 group">
                   <img
                     alt="Team Coding Solutions"
                     className="w-full h-60 object-cover transform group-hover:scale-105 transition duration-500"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUpRXFqw4e5Im2LwSds3-X3YbPTFZdoMXDh5pt74AqG1U_O6LwokRJ8Y1RTWLTxZT1tpIFdP735O3kft8uKP8VQD7RAPQmgg5IEX_zr3eVtRuzDXe0npH9xxhEzdj3mHNqkP0Acbzqnu_kpy9_UksakPUwjpM34SwViafhF-iCjwajf5E51FqA6djnQXZ8q0WJfauNFxwXL51A_dz73WjLencMbroBpjm5PrY8PRj-z_vDcz9kucnwog"
+                    src="https://brivora.pages.dev/team-4.jpg"
                   />
                 </div>
               </div>
@@ -219,7 +219,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                 <img
                   alt="Engineering Team Collab"
                   className="w-full h-[380px] object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYrONgK0Wr3dWhctZOoOrtaWJHIbtNU1zeHTZeSwLCz77r3xE1MjHDS7RUrtWdn1Yg4d-swIteXBurdmHeVXWF2MBq4dcgwyB9rI3y_kL7Op4PIaFGl_MXel3KeCIYHoUTbCUSmZYb6SO-2z9Qe7fmRTCzM1bYBz8jwZtImdfTGJXqwYDX4_E7wV_eJfNpHaUqHu5amih3DxYHn6J97tBPedtjYgPIqpAelrinjxdLIP4ROlno8jYq6A"
+                  src="https://brivora.pages.dev/team-5.jpg"
                 />
               </div>
             </div>
