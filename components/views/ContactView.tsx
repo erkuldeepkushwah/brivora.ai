@@ -169,9 +169,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                     <p className="text-sm text-slate-900 font-semibold mt-0.5">
                       500 Howard Street, Suite 400, San Francisco, CA 94105
                     </p>
-                    <p className="text-xs text-slate-500">
-                      Regional Engineering Hub: 1 Raffles Place, Singapore
-                    </p>
                   </div>
                 </div>
 
@@ -258,9 +255,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                   <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
                     Need consultation?
                   </h3>
-                  <p className="text-xs text-slate-500 mt-1">
-                    Describe your project scope. Receive a confidential architecture proposal within 2 hours.
-                  </p>
                 </div>
 
                 {/* Interactive Consultation Form */}
@@ -274,7 +268,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                       id="contact-fullname"
                       required
                       type="text"
-                      placeholder="e.g. Alexander Vance"
                       value={formData.fullname}
                       onChange={(e) => setFormData({ ...formData, fullname: e.target.value })}
                       className="w-full h-12 px-4 rounded-lg bg-slate-50 border border-slate-200 text-slate-900 text-sm placeholder:text-slate-400 outline-none focus:bg-white focus:border-[#0055ff] focus:ring-2 focus:ring-[#0055ff]/10 transition-all"
@@ -292,7 +285,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                         id="contact-email"
                         required
                         type="email"
-                        placeholder="alex@enterprise.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className="w-full h-12 px-4 rounded-lg bg-slate-50 border border-slate-200 text-slate-900 text-sm placeholder:text-slate-400 outline-none focus:bg-white focus:border-[#0055ff] focus:ring-2 focus:ring-[#0055ff]/10 transition-all"
@@ -307,7 +299,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                       <input
                         id="contact-phone"
                         type="tel"
-                        placeholder="+1 (555) 000-0000"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         className="w-full h-12 px-4 rounded-lg bg-slate-50 border border-slate-200 text-slate-900 text-sm placeholder:text-slate-400 outline-none focus:bg-white focus:border-[#0055ff] focus:ring-2 focus:ring-[#0055ff]/10 transition-all"
@@ -323,7 +314,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                     <input
                       id="contact-company"
                       type="text"
-                      placeholder="e.g. Apex Global Systems"
                       value={formData.company}
                       onChange={(e) => setFormData({ ...formData, company: e.target.value })}
                       className="w-full h-12 px-4 rounded-lg bg-slate-50 border border-slate-200 text-slate-900 text-sm placeholder:text-slate-400 outline-none focus:bg-white focus:border-[#0055ff] focus:ring-2 focus:ring-[#0055ff]/10 transition-all"
@@ -406,7 +396,6 @@ export const ContactView: React.FC<ContactViewProps> = ({ onOpenTerms }) => {
                       id="contact-message"
                       required
                       rows={4}
-                      placeholder="Outline current infrastructure challenges, throughput goals, or timeline requirements..."
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       className="w-full p-4 rounded-lg bg-slate-50 border border-slate-200 text-slate-900 text-sm placeholder:text-slate-400 outline-none focus:bg-white focus:border-[#0055ff] focus:ring-2 focus:ring-[#0055ff]/10 transition-all resize-none"
