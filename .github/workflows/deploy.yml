@@ -20,6 +20,7 @@ jobs:
     env:
       # Project-site sub-path: https://erkuldeepkushwah.github.io/brivora.ai/
       BASE_PATH: /brivora.ai
+      NEXT_PUBLIC_SITE_URL: https://erkuldeepkushwah.github.io/brivora.ai
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

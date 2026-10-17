@@ -313,6 +313,13 @@ export const Footer: React.FC<FooterProps> = ({
             </button>
             <span className="text-slate-700">|</span>
             <button
+              onClick={onOpenTerms}
+              className="hover:text-slate-300 transition-colors cursor-pointer"
+            >
+              Privacy policy
+            </button>
+            <span className="text-slate-700">|</span>
+            <button
               onClick={() => {
                 onNavigate('contact');
                 scrollToTop();
