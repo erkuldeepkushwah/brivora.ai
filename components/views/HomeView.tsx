@@ -42,6 +42,37 @@ const BENEFITS = [
   'Zero-Trust Security & SOC-2 Compliance Certified',
 ];
 
+/* Hero collage imagery. */
+const HERO_IMAGES = [
+  {
+    src: 'https://the7.io/elementor-main/wp-content/uploads/sites/77/elementor/thumbs/oc-069-q4yv1qkz3mm7qu99kcw6mqoqj45hlh75p37r154474.jpeg',
+    alt: 'Brivora engineers collaborating in a modern IT workspace',
+    height: 'h-56',
+  },
+  {
+    src: 'https://the7.io/elementor-main/wp-content/uploads/sites/77/elementor/thumbs/oc-005-1-q3sgmx6zgf3be5dtqkcv0dzdmhqcho9lzstoj58jsw.jpeg',
+    alt: 'Cloud architecture planning session',
+    height: 'h-44',
+  },
+  {
+    src: 'https://the7.io/elementor-main/wp-content/uploads/sites/77/elementor/thumbs/oc-023-1-q3sgn0yengtbwljtyfppiipy2pn2nz3z3wlyr21f68.jpeg',
+    alt: 'DevOps operations and monitoring screens',
+    height: 'h-40',
+  },
+  {
+    src: 'https://the7.io/elementor-main/wp-content/uploads/sites/77/elementor/thumbs/oc-067-q4yuuz4t5e5dtu8mguizb0yppnp1vmkebeu5vvmazs.jpeg',
+    alt: 'Brivora team reviewing enterprise security',
+    height: 'h-60',
+  },
+];
+
+/* Showcase imagery for the home page showcase cards. */
+const SHOWCASE_IMAGES = [
+  'https://the7.io/elementor-main/wp-content/uploads/sites/77/2023/04/pr004-768x512.jpg',
+  'https://the7.io/elementor-main/wp-content/uploads/sites/77/2023/04/pr082-768x768.jpg',
+  'https://the7.io/elementor-main/wp-content/uploads/sites/77/2020/10/cr736-768x960.jpeg',
+];
+
 export const HomeView: React.FC<HomeViewProps> = ({
   onNavigate,
   onOpenConsultation,
@@ -91,17 +122,60 @@ export const HomeView: React.FC<HomeViewProps> = ({
             </div>
           </div>
 
-          {/* Single hero visual */}
+          {/* Visual collage */}
           <div className="relative">
-            <div className="overflow-hidden rounded-3xl border border-white/15 shadow-2xl">
-              <img
-                src="https://brivora.pages.dev/team-1.jpg"
-                alt="Brivora engineers collaborating on cloud and AI infrastructure in a modern IT workspace"
-                width={720}
-                height={460}
-                fetchPriority="high"
-                className="h-[300px] w-full object-cover sm:h-[380px] lg:h-[460px]"
-              />
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-900 shadow-2xl">
+                  <img
+                    src={HERO_IMAGES[0].src}
+                    alt={HERO_IMAGES[0].alt}
+                    width={420}
+                    height={280}
+                    fetchPriority="high"
+                    className="h-56 w-full object-cover transition duration-500 hover:scale-105"
+                  />
+                </div>
+                <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-900 shadow-xl">
+                  <img
+                    src={HERO_IMAGES[1].src}
+                    alt={HERO_IMAGES[1].alt}
+                    width={420}
+                    height={220}
+                    loading="lazy"
+                    className="h-44 w-full object-cover transition duration-500 hover:scale-105"
+                  />
+                </div>
+              </div>
+
+              <div className="space-y-4 pt-6">
+                <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-900 shadow-xl">
+                  <img
+                    src={HERO_IMAGES[2].src}
+                    alt={HERO_IMAGES[2].alt}
+                    width={420}
+                    height={200}
+                    loading="lazy"
+                    className="h-40 w-full object-cover transition duration-500 hover:scale-105"
+                  />
+                </div>
+                <div className="overflow-hidden rounded-2xl border border-white/10 bg-slate-900 shadow-2xl">
+                  <img
+                    src={HERO_IMAGES[3].src}
+                    alt={HERO_IMAGES[3].alt}
+                    width={420}
+                    height={300}
+                    loading="lazy"
+                    className="h-60 w-full object-cover transition duration-500 hover:scale-105"
+                  />
+                </div>
+              </div>
+            </div>
+
+            {/* Floating SLA badge */}
+            <div className="absolute -bottom-6 -left-6 flex items-center space-x-3 rounded-xl border border-slate-100 bg-white px-5 py-3 text-slate-900 shadow-2xl">
+              <div className="h-3 w-3 rounded-full bg-emerald-500 animate-ping" />
+              <div className="text-xs font-semibold">99.99% Cloud SLA Guarantee</div>
             </div>
           </div>
         </div>
@@ -185,7 +259,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <div className="mt-16 grid grid-cols-1 items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <div className="overflow-hidden rounded-2xl border border-white shadow-xl">
               <img
-                src="https://brivora.pages.dev/team-2.jpg"
+                src="https://the7.io/elementor-main/wp-content/uploads/sites/77/2023/03/oc-011-1-768x512.jpeg"
                 alt="The Brivora IT team collaborating on enterprise AI and cloud projects"
                 width={720}
                 height={420}
@@ -337,14 +411,14 @@ export const HomeView: React.FC<HomeViewProps> = ({
           </div>
 
           <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
-            {SHOWCASE_PROJECTS.map((project) => (
+            {SHOWCASE_PROJECTS.map((project, index) => (
               <article
                 key={project.id}
                 className="group flex flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-sm transition-all duration-300 hover:shadow-xl"
               >
                 <div className="relative h-52 overflow-hidden">
                   <img
-                    src={project.image}
+                    src={SHOWCASE_IMAGES[index] ?? project.image}
                     alt={project.title}
                     width={480}
                     height={208}
