@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Users, Sparkles, Cloud, ShieldAlert, BarChart3, Headphones } from 'lucide-react';
 import { TEAM_MEMBERS, TeamMember } from '@/data/content';

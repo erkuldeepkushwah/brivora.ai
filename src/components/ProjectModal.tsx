@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { X, CheckCircle, ShieldCheck, Sparkles, ExternalLink, ArrowRight } from 'lucide-react';
 import { ProjectShowcase } from '@/data/content';

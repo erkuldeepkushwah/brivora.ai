@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState } from 'react';
 import { X, Calendar, Clock, CheckCircle2, Shield, Sparkles, Send } from 'lucide-react';
 

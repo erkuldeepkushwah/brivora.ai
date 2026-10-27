@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { X, Shield, FileText } from 'lucide-react';
 
