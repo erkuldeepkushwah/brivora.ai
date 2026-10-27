@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState, useMemo } from 'react';
 import { BLOG_POSTS, BlogPost } from '@/data/content';
 import { BookOpen, Clock, Calendar, ArrowRight, User } from 'lucide-react';

@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { ArrowRight, Code, Server, ShieldCheck, Check } from 'lucide-react';
 import { SHOWCASE_PROJECTS, TESTIMONIALS, ProjectShowcase } from '@/data/content';

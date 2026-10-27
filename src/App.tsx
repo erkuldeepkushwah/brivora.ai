@@ -1,14 +1,12 @@
-'use client';
-
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { HomeView } from '@/components/views/HomeView';
-import { AboutView } from '@/components/views/AboutView';
-import { ServicesView } from '@/components/views/ServicesView';
-import { BlogView } from '@/components/views/BlogView';
-import { ContactView } from '@/components/views/ContactView';
-import { PortfolioView } from '@/components/views/PortfolioView';
+import { HomeView } from '@/pages/HomePage';
+import { AboutView } from '@/pages/AboutPage';
+import { ServicesView } from '@/pages/ServicesPage';
+import { BlogView } from '@/pages/BlogPage';
+import { ContactView } from '@/pages/ContactPage';
+import { PortfolioView } from '@/pages/PortfolioPage';
 import { SearchModal } from '@/components/SearchModal';
 import { ConsultationModal } from '@/components/ConsultationModal';
 import { AccountModal } from '@/components/AccountModal';
@@ -18,7 +16,7 @@ import { DesignSystemModal } from '@/components/DesignSystemModal';
 import { TermsModal } from '@/components/TermsModal';
 import { BlogPost, ProjectShowcase } from '@/data/content';
 
-export default function Page() {
+export default function App() {
   const [activePage, setActivePage] = useState<string>('home');
   const [searchOpen, setSearchOpen] = useState(false);
   const [consultationOpen, setConsultationOpen] = useState(false);

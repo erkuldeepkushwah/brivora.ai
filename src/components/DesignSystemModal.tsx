@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { X, Palette, Type, Box, Sparkles, Copy, Check } from 'lucide-react';
 

@@ -1,5 +1,3 @@
-'use client';
-
 import React from 'react';
 import { X, Calendar, User, Clock, Share2, Bookmark, Check } from 'lucide-react';
 import { BlogPost } from '@/data/content';

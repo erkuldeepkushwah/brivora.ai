@@ -19,20 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Project-site sub-path: https://erkuldeepkushwah.github.io/brivora.ai/
-      BASE_PATH: /brivora.ai
-      NEXT_PUBLIC_SITE_URL: https://erkuldeepkushwah.github.io/brivora.ai
+      BASE_PATH: /brivora.ai/
+      VITE_SITE_URL: https://erkuldeepkushwah.github.io/brivora.ai
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - run: npm install --no-audit --no-fund
+          cache: npm
+      - run: npm ci --no-audit --no-fund
       - run: npm run build
       - name: Disable Jekyll processing
-        run: touch out/.nojekyll
+        run: touch dist/.nojekyll
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: out
+          path: dist
 
   deploy:
     needs: build

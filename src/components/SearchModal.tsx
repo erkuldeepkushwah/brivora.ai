@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState, useMemo } from 'react';
 import { Search, X, BookOpen, Layers, Briefcase, ArrowRight } from 'lucide-react';
 import { BLOG_POSTS, SHOWCASE_PROJECTS, BlogPost, ProjectShowcase } from '@/data/content';

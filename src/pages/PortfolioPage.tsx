@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState } from 'react';
 import { SHOWCASE_PROJECTS, ProjectShowcase } from '@/data/content';
 import { Check, ArrowRight, ExternalLink, Sparkles, Layers, ShieldCheck } from 'lucide-react';

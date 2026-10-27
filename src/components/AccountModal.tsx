@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useState } from 'react';
 import { X, Lock, Key, ShieldCheck, UserCheck, ArrowRight } from 'lucide-react';
 
